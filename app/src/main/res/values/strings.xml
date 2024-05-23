@@ -2,4 +2,15 @@
     <string name="app_name">study_app1</string>
     <string name="hello_world">Hello World!!!</string>
     <string name="hello_new_world">Hello neeeeeeeeew World!</string>
+
+    <!--lovetest-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="main_title">Let\'s find out\nyout love type!</string>
+    <string name="question">There where favorite flowers\nin the flower vase.\nAs time goes, the flowers\nhave all withered.\nWhat are you going to do with that?</string>
+    <string name="q1">Throw it away.</string>
+    <string name="q2">Water the flowers.</string>
+    <string name="q3">Cut if off with sissors.</string>
+    <string name="q4">Make them as dried flower.</string>
+    <string name="result_title">You are a quitter!</string>
+    <string name="result_message">May be you five up on love too easily\.\.\.</string>
 </resources>
