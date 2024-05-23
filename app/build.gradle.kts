@@ -42,4 +42,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    //suspend st
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.0")
 }
