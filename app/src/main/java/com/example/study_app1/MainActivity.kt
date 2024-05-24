@@ -1,6 +1,9 @@
 package com.example.study_app1
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -27,6 +30,24 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+    }
+
+    fun mainBtnOnclick(view: View) {
+        println("mainBtnOnclick fun run()!!!")
+
+        val text2 = findViewById<TextView>(R.id.textView2)
+        text2.setText("Change!!!")
+        /*
+        TextView text1 = (TextView) findViewById(R.id.textView);
+        switch(view.getId()) {
+            case R.id.button1: text2.setText("Change!!"); break;
+            case R.id.button2: text2.setText("world"); break;
+        }
+        */
+
+        val intent = Intent(this, SubActivity::class.java)
+        startActivity(intent)
+        /*Intent intent = new Intent(this, SubActivity.class);*/
     }
 }
 
