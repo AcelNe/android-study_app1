@@ -10,6 +10,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
 import com.example.study_app1.databinding.ActivityMainBinding
+import com.example.study_app1.knou.LinearMainActivity
 import com.example.study_app1.members.JoinActivity
 import kotlinx.coroutines.launch
 
@@ -35,9 +36,17 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val intent = Intent(this, JoinActivity::class.java)
+//        val intent = Intent(this, JoinActivity::class.java)
+        lateinit var intent: Intent
         binding.bntGoJoin.setOnClickListener{
+            intent = Intent(this, JoinActivity::class.java)
             println("click go_join btn !!!!")
+            startActivity(intent)
+        }
+
+        binding.btnGoLinear.setOnClickListener{
+            intent = Intent(this, LinearMainActivity::class.java)
+            println("click go_linear btn!!!!")
             startActivity(intent)
         }
     }

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KNOU Study View Title"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="#8080FF"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_weight="0.6"
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Sub Title"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:background="#FF8080"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_weight="0.4"
+        />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Contents\nlayout_width, height보다 weigth가 우선순위가 높기 때문에 width나 height는 무시된다.\nweigth가 없다면 0으로 취급한다."
+        android:textColor="@color/black"
+        android:background="#80FF80"
+        android:textSize="15sp"
+        android:gravity="top"
+        android:layout_weight="10"
+        />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Please"
+        android:layout_weight="3"
+        />
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
