@@ -10,7 +10,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
 import com.example.study_app1.databinding.ActivityMainBinding
-import com.example.study_app1.knou.LinearMainActivity
+import com.example.study_app1.knou.linear.LinearMainActivity
 import com.example.study_app1.members.JoinActivity
 import kotlinx.coroutines.launch
 

@@ -1,4 +1,4 @@
-package com.example.study_app1.knou
+package com.example.study_app1.knou.linear
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

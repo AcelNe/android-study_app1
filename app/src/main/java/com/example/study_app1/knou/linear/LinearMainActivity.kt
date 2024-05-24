@@ -1,4 +1,4 @@
-package com.example.study_app1.knou
+package com.example.study_app1.knou.linear
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,7 +9,6 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.study_app1.MainActivity
 import com.example.study_app1.R
 import com.example.study_app1.databinding.ActivityLinearMainBinding
-import com.example.study_app1.databinding.ActivityMainBinding
 
 class LinearMainActivity : AppCompatActivity() {
 
