@@ -3,4 +3,8 @@
     <string name="app_name">study_app1</string>
     <string name="hello_world">Hello World!!!</string>
     <string name="hello_new_world">안녕! 새ㅇㅇㅇㅇㅇㅇㅇ로운 세상!</string>
+    <string name="join_id">ID</string>
+    <string name="join_pw">PW</string>
+    <string name="login">로그인</string>
+    <string name="join">회원가입</string>
 </resources>
